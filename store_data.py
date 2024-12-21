@@ -79,11 +79,4 @@ class StoreData:
 
 if __name__ == '__main__':
     store_data = StoreData()
-    # store_data.store_data("./datas")
-    res = store_data.search("了解下人工智能与人类智能")
-    for res, score in res:
-        print(f"* [SIM={score:3f}] {res.page_content} [{res.metadata}]")
-
-
-
-
+    store_data.store_data("./datas")

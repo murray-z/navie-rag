@@ -6,6 +6,8 @@
 # 使用
 - 下载ollama，部署llm和embedding模型
 - 修改配置文件config.py
+- 将文本存入milvus
+  - 运行store_data.py
 - 运行main.py
 
 # TODO
